@@ -12,7 +12,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-%matplotlib inline
+# %matplotlib inline
+plt.show()
 warnings.filterwarnings('ignore')
 
 train = pd.read_csv('train.csv', dtype={"Age": np.float64})
